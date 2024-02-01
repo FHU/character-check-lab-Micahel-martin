@@ -1,4 +1,4 @@
-#Remove pass and complete the code
+#Remove pass and complete the cde
 def check_character(word, index):
    pass
 
