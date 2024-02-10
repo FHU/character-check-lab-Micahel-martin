@@ -3,9 +3,9 @@ def check_character(word, index):
    sent = word[index].lower()
    if sent.islower() == True:
        return 'letter'
-   elif word.isspace() == True:
+   elif sent.isspace() == True:
        return 'space'
-   elif word.isdigit() == True:
+   elif sent.isdigit() == True:
        return 'digit'
    else: 
        return 'unknown'
