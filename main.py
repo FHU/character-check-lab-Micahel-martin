@@ -4,11 +4,12 @@ def check_character(word, index):
    if sent.islower() == True:
        return 'letter'
    elif sent.isspace() == True:
-       return 'space'
+       return 'white space'
    elif sent.isdigit() == True:
        return 'digit'
    else: 
        return 'unknown'
+   
 if __name__ == '__main__': 
     print(check_character('happy birthday', 2))
     print(check_character('happy birthday', 5))
