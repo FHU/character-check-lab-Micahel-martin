@@ -1,7 +1,11 @@
 #Remove pass and complete the cde
 def check_character(word, index):
-   pass
-
+   sent = word[index].lower()
+   if sent.islower() == True:
+       return 'letter'
+   elif word.isspace() == True:
+       return 'space'
+   
 if __name__ == '__main__': 
     print(check_character('happy birthday', 2))
     print(check_character('happy birthday', 5))
